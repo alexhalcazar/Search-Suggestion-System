@@ -32,3 +32,12 @@ console.log(suggestedProducts);
 
 //Output: [["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]
 ```
+**Constraints:**
+
+1 <= products.length <= 1000  
+1 <= products[i].length <= 3000  
+1 <= sum(products[i].length) <= 2 * 104  
+All the strings of products are unique.  
+products[i] consists of lowercase English letters.  
+1 <= searchWord.length <= 1000  
+searchWord consists of lowercase English letters.  
